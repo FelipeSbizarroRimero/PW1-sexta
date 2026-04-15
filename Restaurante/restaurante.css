@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #fafafa;
+}
+
+header {
+    background: linear-gradient(90deg, #333, #555);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+aside {
+    width: 18%;
+    float: left;
+    background: #222;
+    padding: 20px;
+    height: 100vh;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside li {
+    margin-bottom: 15px;
+}
+
+aside a {
+    text-decoration: none;
+    color: #ddd;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+aside a:hover {
+    color: #fff;
+    padding-left: 5px;
+}
+
+main {
+    width: 82%;
+    float: left;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-left: 6px solid #333;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    width: 45%;
+    float: left;
+    margin: 2%;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 4px 10px #0000001a;
+    transition: 0.3s;
+}
+
+.cards:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px #00000033;
+}
+
+.imagem {
+    background: #222;
+}
+
+.imagem img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.texto {
+    background: #f9f9f9;
+    padding: 15px;
+    height: 120px;
+}
+
+.texto h3 {
+    margin-bottom: 5px;
+}
+
+.texto p {
+    font-size: 14px;
+    color: #555;
+}
+
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    clear: both;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

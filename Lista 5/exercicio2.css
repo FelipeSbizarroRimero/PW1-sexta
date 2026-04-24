@@ -1,0 +1,12 @@
+.filho {
+    color: blue;
+    text-decoration: none;
+}
+
+.filho:hover {
+    color: red;
+}
+
+.filho:visited {
+    color: purple;
+}

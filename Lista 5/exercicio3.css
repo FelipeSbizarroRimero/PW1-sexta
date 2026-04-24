@@ -1,0 +1,11 @@
+.intro {
+    color: green;         
+    text-align: center;    
+    font-size: 20px;
+}
+
+.descricao {
+    color: darkred;        
+    text-align: justify;    
+    font-size: 18px;
+}

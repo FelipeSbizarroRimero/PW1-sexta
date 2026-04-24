@@ -1,0 +1,8 @@
+.coluna {
+    display: inline-block;
+    width: 45%;              
+    border: 2px solid black; 
+    padding: 10px; 
+    margin: 10px;          
+    vertical-align: top;    
+}

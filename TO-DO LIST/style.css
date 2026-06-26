@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    background-color: white;
+    max-width: 800px;
+}
+
+.tarefa {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tarefa:hover {
+    transform: translateX(5px);
+}
+
+.riscar {
+    text-decoration: line-through;
+    opacity: 0.6;
+    background-color: #d4edda !important;
+}
